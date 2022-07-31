@@ -22,3 +22,9 @@ Adiciona aqui a descrição sobre o seu Pull Request
 ## Verificações adicionais
 
     Caso necessário adicione novos check-lists, se não forem necessários pode excluir esse tópico ao abrir o PR
+
+## Screenshot
+
+    Se quiser adicionar alguma screenshot pode adicionar a fonte da imagem entre as aspas em src e retirar o espaço antes de img: 
+    
+> < img src=''/>
