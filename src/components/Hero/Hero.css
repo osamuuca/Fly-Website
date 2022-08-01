@@ -1,0 +1,30 @@
+@font-face {
+    font-family: DeValencia;
+    src: url(../../vendor/font/De\ Valencia\ \(beta\).otf);
+}
+
+.hero-title {
+    font-family: DeValencia;
+    font-size: 11rem;
+    position: relative;
+    bottom: 10rem;
+    right: 38rem
+}
+
+.hero-first-parag {
+    color: #7f7f7f;
+    font-family: DeValencia;
+    position: relative;
+    bottom: 10rem;
+    right: 41rem;
+    font-size: 3rem;
+ }
+
+.hero-second-parag {
+    color: #534f4f;
+    font-family: DeValencia;
+    position: relative;
+    bottom: 7rem;
+    right: 38.9rem;
+    font-size: 2rem;
+ }

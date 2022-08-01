@@ -1,0 +1,17 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600">
+	<title>Novo Projeto</title>
+	<defs>
+		<image  width="600" height="600" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAlgAAAJYAQMAAACEqAqfAAAAAXNSR0IB2cksfwAAAANQTFRF////p8QbyAAAAENJREFUeJztwQENAAAAwqD3T20ON6AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAL4NsiAAAfkdBQsAAAAASUVORK5CYII="/>
+		<image  width="600" height="600" id="img2" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAlgAAAJYAQMAAACEqAqfAAAAAXNSR0IB2cksfwAAAANQTFRFAAAAp3o92gAAAENJREFUeJztwQENAAAAwqD3T20ON6AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAL4NsiAAAfkdBQsAAAAASUVORK5CYII="/>
+		<image  width="658" height="611" id="img3" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAApIAAAJjAQMAAACFiGOZAAAAAXNSR0IB2cksfwAAAAZQTFRFAAAA////pdmf3QAAAAJ0Uk5TAP9bkSK1AAAAWklEQVR4nO3MQREAAAQAMM30b6EJBdx5+W0BFgEAAAAAAAAAAAAAwL/sVTmdTqfT6XQ6nR8nAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABwGWBp4T8HPll1AAAAAElFTkSuQmCC"/>
+		<image  width="600" height="611" id="img4" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAlgAAAJjAQMAAADqFf3xAAAAAXNSR0IB2cksfwAAAAZQTFRFAAAA////pdmf3QAAAAJ0Uk5TAP9bkSK1AAAAVElEQVR4nO3MMQ0AMAgAMJxhDefbTbgJTyugEQAAAAAAAAAAAABM+bpyuVwul8vlcq1eAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABc+mrG9hD+JhbFAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+		.s0 { fill: #ffffff } 
+	</style>
+	<use id="Background" href="#img1" x="0" y="0"/>
+	<use id="Camada 1" href="#img2" x="0" y="0"/>
+	<path id="F" class="s0" aria-label="F"  d="m319.5 66.4h-86.4v480.6h27v-217.8h38.9v-30h-38.9v-202.2h59.4zm-14.2 0h-86.4v480.6h27v-217.8h38.9v-30h-38.9v-202.2h59.4z"/>
+	<use id="Camada 2" href="#img3" x="-46" y="-73"/>
+	<use id="Camada 2 copy 2" href="#img4" x="-31" y="158"/>
+</svg>
