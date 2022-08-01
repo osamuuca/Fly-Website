@@ -3,13 +3,11 @@ import "./Hero.css";
 
 function Hero() {
     return (
-        <>
-            <h1>FLY</h1>
-            <div>
-                <p>CODERS</p>
-                <p className="tec-parag">A TEC COMPANY</p>
-            </div>
-        </>
+        <div data-test='hero-section'>
+            <h1 className="hero-title">FLY</h1>
+            <p className="hero-first-parag">CODERS</p>
+            <p className="hero-second-parag">A TEC COMPANY</p>
+        </div>
     );
 }
 

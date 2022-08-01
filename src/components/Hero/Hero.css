@@ -3,14 +3,15 @@
     src: url(../../vendor/font/De\ Valencia\ \(beta\).otf);
 }
 
-h1 {
+.hero-title {
     font-family: DeValencia;
     font-size: 11rem;
     position: relative;
     bottom: 10rem;
     right: 38rem
 }
- p {
+
+.hero-first-parag {
     color: #7f7f7f;
     font-family: DeValencia;
     position: relative;
@@ -19,7 +20,7 @@ h1 {
     font-size: 3rem;
  }
 
- .tec-parag {
+.hero-second-parag {
     color: #534f4f;
     font-family: DeValencia;
     position: relative;
