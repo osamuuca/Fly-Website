@@ -6,34 +6,22 @@
 .navbar {
     font-family: DeValencia;
     background-color: #161616;
-    height: 110px;
-    width: 100%;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    position: relative;
-    bottom: 18rem;
 }
 
-
-.navlink {
-    cursor: pointer;
-    margin-top: 2rem;
-    margin-left: 24rem;
-    list-style-type: none;
+.navbar a {
+    color: white;
 }
 
-.navlink::after{
-    content: "";
-    display: block;
-    height: 3px;
-    width: 0;
-    background: transparent;
-    transition: width 0.7s ease, background-color 0.5s ease;
+.navbar a::after{
+    content: "" !important;
+    display: block !important;
+    height: 3px !important;
+    width: 0 !important; 
+    background: transparent !important;
+    transition: width 0.7s ease, background-color 0.5s ease !important;
 }
 
-.navlink:hover::after {
-    width: 100%;
-    background-color: #534f4f;
+.navbar:hover::after {
+    width: 100% !important;
+    background-color: #534f4f !important;
 }
-
