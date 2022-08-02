@@ -1,13 +1,23 @@
-import React from "react";
 import "./Navbar.css";
+import { Navbar, Nav, Container } from "react-bootstrap/";
 
-function Navbar() {
+function NavBar() {
     return (
-        <div className="navbar" data-test="navbar">
-            <li className="navlink">WHY US</li>
-            <li className="navlink">PROJECTS</li>
-            <li className="navlink">ABOUT US</li>
-        </div>
+        <Navbar collapseOnSelect expand="md" className="navbar">
+            <Container>
+                <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                <Navbar.Collapse id="responsive-navbar-nav">
+
+                <Nav className="me-auto flex-grow-1 justify-content-between">
+                    <Nav.Link href="#home">
+                        ABOUT US
+                    </Nav.Link>
+                    <Nav.Link href="#features">PROJECTS</Nav.Link>
+                    <Nav.Link href="#pricing">OUR TEAM</Nav.Link>
+                </Nav>
+                </Navbar.Collapse>
+            </Container>
+        </Navbar>
     );
 }
-export default Navbar;
+export default NavBar;

@@ -1,13 +1,21 @@
-import React from "react";
 import "./Hero.css";
+import logo from "../../vendor/img/FlyLogo.png";
+import kanji from "../../vendor/img/Kanji.png";
+import { Container } from "react-bootstrap/";
 
 function Hero() {
     return (
-        <div data-test='hero-section'>
-            <h1 className="hero-title">FLY</h1>
-            <p className="hero-first-parag">CODERS</p>
-            <p className="hero-second-parag">A TEC COMPANY</p>
-        </div>
+        <section data-test="hero-section" className="hero-section">
+            <Container>
+                <div className="hero-logo">
+                    <img src={logo} alt="Logo" className="logo" />
+                </div>
+                <p className="hero-paragraph">A TEC COMPANY</p>
+                <div className="hero-kanji">
+                    <img src={kanji} alt="Logo" className="kanji" />
+                </div>
+            </Container>
+        </section>
     );
 }
 
