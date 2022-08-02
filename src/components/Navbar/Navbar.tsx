@@ -9,11 +9,11 @@ function NavBar() {
                 <Navbar.Collapse id="responsive-navbar-nav">
 
                 <Nav className="me-auto flex-grow-1 justify-content-between">
-                    <Nav.Link href="#home">
+                    <Nav.Link href="#about-us">
                         ABOUT US
                     </Nav.Link>
-                    <Nav.Link href="#features">PROJECTS</Nav.Link>
-                    <Nav.Link href="#pricing">OUR TEAM</Nav.Link>
+                    <Nav.Link href="#projects">PROJECTS</Nav.Link>
+                    <Nav.Link href="#our-team">OUR TEAM</Nav.Link>
                 </Nav>
                 </Navbar.Collapse>
             </Container>
