@@ -3,28 +3,231 @@
     src: url(../../vendor/font/De\ Valencia\ \(beta\).otf);
 }
 
-.hero-title {
+.hero-section {
     font-family: DeValencia;
-    font-size: 11rem;
-    position: relative;
-    bottom: 10rem;
-    right: 38rem
+    background: -webkit-linear-gradient(0deg, rgb(0, 0, 0) 0%,#232020 100%); 
+    height: 92.1vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
 }
 
-.hero-first-parag {
-    color: #7f7f7f;
-    font-family: DeValencia;
-    position: relative;
-    bottom: 10rem;
-    right: 41rem;
-    font-size: 3rem;
- }
+.hero-title {
+    margin-top: 100px;
+    margin-left: 175px;
+    font-size: 11rem;
+    min-width: 300px;
 
-.hero-second-parag {
+}
+
+.hero-paragraph {
     color: #534f4f;
-    font-family: DeValencia;
-    position: relative;
-    bottom: 7rem;
-    right: 38.9rem;
     font-size: 2rem;
- }
+    margin-top: 15px;
+    margin-left: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: relative;
+}
+
+.logo{
+    margin-top: -4px;
+    margin-left: 13px;
+
+}
+
+.hero-logo{
+    height: 400px;
+    width: 400px;
+    margin-left: 65px;
+    margin-top: 100px;
+    border-left: solid white 1px;
+    border-bottom: solid white 1px;
+}
+
+.hero-kanji{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 85px;
+
+}
+.kanji {
+    border-right: solid white 1px;
+    border-bottom: solid white 1px;
+}
+
+@media (max-width: 1450px){
+    .hero-title{
+        margin-top: 100px;
+        margin-left: 0px;
+    } 
+    .hero-paragraph {
+        margin-top: 16px;
+        margin-left: 73px;
+        font-size: 1.8rem;
+    }
+    .hero-section{
+        height: 93.7vh;
+    }
+    .logo{
+        height: 300px;
+        width: 300px;
+    }
+    .hero-logo{
+        height: 300px !important;
+        width: 300px !important;
+        margin-left: 60px !important; 
+        margin-top: 90px !important;
+        border-left: solid white 1px;
+        border-bottom: solid white 1px;
+    }
+    .hero-kanji{
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 85px;
+        margin-top: 100px;
+    }
+    .kanji {
+        width: 500px;
+        height: 224px;
+        border-right: solid white 1px;
+        border-bottom: solid white 1px;
+    }
+}
+
+@media (max-width: 1080px){
+    .hero-title{
+        margin-top: 100px;
+        margin-left: 0px;
+    }  
+    .hero-paragraph {
+        margin-top: 50px;
+        margin-left: 30px;
+    }
+    .hero-section{
+        height: 93.7vh;
+
+    }
+
+    .logo{
+        height: 280px;
+        width: 280px;
+    }
+
+    .hero-logo{
+        height: 280px !important;
+        width: 280px !important;
+        margin-left: 20px !important; 
+        margin-top: 50px !important;
+        border-left: solid white 1px;
+        border-bottom: solid white 1px;
+    }
+    .hero-kanji{
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 70px;
+        margin-top: 180px;
+    
+    }
+    .kanji {
+        width: 450px;
+        height: 200px;
+        border-right: solid white 1px;
+        border-bottom: solid white 1px;
+    }
+}
+@media (max-width: 767px){
+    .hero-title{
+        margin-top: 100px;
+        margin-left: 0px;
+    }  
+    .hero-paragraph {
+        margin-top: 50px;
+        margin-left: 30px;
+    }
+    .hero-section{
+        height: 94.2vh;
+
+    }
+
+    .logo{
+        height: 200px;
+        width: 200px;
+    }
+
+    .hero-logo{
+        height: 200px !important;
+        width: 200px !important;
+        margin-left: 20px !important; 
+        margin-top: 50px !important;
+        border-left: solid white 1px;
+        border-bottom: solid white 1px;
+    }
+    .hero-kanji{
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 60px;
+        margin-top: 250px;
+    
+    }
+    .kanji {
+        width: 380px;
+        height: 190px;
+        border-right: solid white 1px;
+        border-bottom: solid white 1px;
+    }
+}
+@media (max-width: 499px){
+    .hero-title{
+        margin-top: 100px;
+        margin-left: 0px;
+    }  
+    .hero-paragraph {
+        margin-top: 50px;
+        margin-left: 30px;
+    }
+    .hero-section{
+        height: 94.2vh;
+
+    }
+
+    .logo{
+        height: 180px;
+        width: 180px;
+    }
+
+    .hero-logo{
+        height: 180px !important;
+        width: 180px !important;
+        margin-left: 20px !important; 
+        margin-top: 50px !important;
+        border-left: solid white 1px;
+        border-bottom: solid white 1px;
+    }
+    .hero-kanji{
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 55px;
+    
+    }
+    .kanji {
+        width: 300px;
+        height: 170px;
+        border-right: solid white 1px;
+        border-bottom: solid white 1px;
+    }
+}
+
+@media (max-width: 375px){
+    .hero-section{
+        height: 120vh;
+
+    }
+    .kanji {
+        width: 250px;
+        height: 120px;
+        border-right: solid white 1px;
+        border-bottom: solid white 1px;
+    }
+}
