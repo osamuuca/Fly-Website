@@ -5,13 +5,13 @@ import kanji from "../../vendor/img/Kanji.png";
 function Hero() {
     return (
         <section data-test="hero-section" className="hero-section">
-                <div className="hero-logo">
-                    <img src={logo} alt="Logo" className="logo" />
-                </div>
-                <p className="hero-paragraph">A TEC COMPANY</p>
-                <div className="hero-kanji">
-                    <img src={kanji} alt="Logo" className="kanji" />
-                </div>
+            <div className="hero-logo">
+                <img src={logo} alt="Logo" className="logo" />
+            </div>
+            <p className="hero-paragraph">A TEC COMPANY</p>
+            <div className="hero-kanji">
+                <img src={kanji} alt="Logo" className="kanji" />
+            </div>
         </section>
     );
 }
