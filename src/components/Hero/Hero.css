@@ -5,8 +5,8 @@
 
 .hero-section {
     font-family: DeValencia;
-    background: -webkit-linear-gradient(0deg, rgb(0, 0, 0) 0%,#232020 100%); 
-    height: 100%; 
+    background: -webkit-linear-gradient(55deg, #131313 0%,#2c2c2c 100%); 
+    height: 100vh; 
     display: flex;
     flex-direction: column;
 }
@@ -68,7 +68,7 @@
         font-size: 1.8rem;
     }
     .hero-section{
-        height: 100%;
+        height: 100vh;
     }
     .logo{
         height: 300px;
@@ -106,7 +106,7 @@
         margin-left: 30px;
     }
     .hero-section{
-        height: 100%;
+        height: 100vh;
 
     }
 
@@ -119,7 +119,7 @@
         height: 280px !important;
         width: 280px !important;
         margin-left: 20px !important; 
-        margin-top: 50px !important;
+        margin-top: 100px !important;
         border-left: solid white 1px;
         border-bottom: solid white 1px;
     }
@@ -147,7 +147,7 @@
         margin-left: 30px;
     }
     .hero-section{
-        height: 100%;
+        height: 100vh;
 
     }
 
@@ -160,7 +160,7 @@
         height: 200px !important;
         width: 200px !important;
         margin-left: 20px !important; 
-        margin-top: 50px !important;
+        margin-top: 100px !important;
         border-left: solid white 1px;
         border-bottom: solid white 1px;
     }
@@ -188,7 +188,7 @@
         margin-left: 30px;
     }
     .hero-section{
-        height: 100%;
+        height: 100vh;
 
     }
 
@@ -201,7 +201,7 @@
         height: 180px !important;
         width: 180px !important;
         margin-left: 20px !important; 
-        margin-top: 50px !important;
+        margin-top: 100px !important;
         border-left: solid white 1px;
         border-bottom: solid white 1px;
     }
@@ -221,7 +221,7 @@
 
 @media (max-width: 375px){
     .hero-section{
-        height: 100%;
+        height: 100vh;
 
     }
     .kanji {
