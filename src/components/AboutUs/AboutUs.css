@@ -10,6 +10,20 @@
 .about-us-info {
     display: flex;
     flex-direction: column;
+    padding-left: 40px;
+
+}
+
+.row {
+    flex-wrap: nowrap !important;
+}
+
+.dash {
+    background-color: white;
+    width: 35px !important;
+    height: 2px;
+    margin-right: 25px;
+    margin-top: 24px !important;
 }
 
 .paragraph {
@@ -43,5 +57,26 @@
 
     .buttom{
         width: auto;
+        font-size: 20px;
+    }
+
+    .about-us-info{
+        padding-right: 0 !important;
+        width: 300px !important;
+    }
+
+    .row {
+        flex-wrap: nowrap !important;
+    }
+
+    .dash {
+        background-color: white;
+        width: 10px !important;
+        margin-top: 18px !important;
+    }
+
+    .about-us{
+        padding-top: 100px;
     }
 }
+
